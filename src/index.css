@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* Añade un punto y coma (;) al final de cada color */
+  --color-masa: #F8F4E3;
+  --color-comal: #3D352E;
+  --color-elote: #E8B923;
+  --color-maiz-azul: #4A4C7F;
+  --color-milpa: #6A7B53;
+
+  /* 🔤 Tipografías */
+  --font-sans: "Montserrat", sans-serif;
+  --font-serif: "Cinzel", serif;
+
+
+  /* Animaciones */
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  --animate-fade-in-up: fade-in-up 0.5s ease-out;
+}
