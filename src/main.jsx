@@ -19,16 +19,17 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <HomePage /> },
       { path: "filosofia", element: <PhilosophyPage /> },
-      { path: "menu", element: <MenuPage /> }, 
-      { 
-        path: "menu/:dishId", // <-- 2. Añadir la ruta dinámica. El ':dishId' es un parámetro.
-        element: <DishDetailPage /> 
-      },
+      { path: "menu", element: <MenuPage /> },
+      { path: "menu/:dishId", element: <DishDetailPage /> },
       { path: "reservar", element: <ReservationsPage /> },
       { path: "chefs", element: <ChefsPage /> },
     ],
   },
-]);
+], {
+  // 👇 AÑADE ESTA OPCIÓN CON EL MISMO NOMBRE DE TU REPO 👇
+  basename: "/restaurante-final/", // 🔴 ¡DEBE COINCIDIR CON EL `base` DE VITE.CONFIG.JS!
+});
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
