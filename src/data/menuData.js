@@ -6,7 +6,7 @@ export const menuData = [
     descripcion: 'Una compleja sinfonía de más de 30 ingredientes, esta receta de mole, heredada por generaciones, se sirve sobre un jugoso guajolote criado en libertad y se acompaña de arroz silvestre y plátano macho frito.',
     precio: 350,
     categoria: 'Platos Fuertes',
-    imagen: '/platillos/mole.jpg',
+    imagen: './platillos/mole.jpg',
   },
   {
     id: 'tlacoyos-de-maiz-azul',
@@ -15,7 +15,7 @@ export const menuData = [
     descripcion: 'Hechos con masa de maíz azul criollo nixtamalizado en casa, estos tlacoyos se rellenan de haba y requesón de cabra, y se coronan con nopales tiernos, cilantro y un toque de queso fresco de Chiapas.',
     precio: 180,
     categoria: 'Entradas',
-    imagen: '/platillos/mole.jpg',
+    imagen: './platillos/mole.jpg',
   },
   {
     id: 'esquites-elotero',
@@ -24,7 +24,7 @@ export const menuData = [
     descripcion: 'Una deconstrucción del clásico callejero. Granos de maíz cacahuazintle tierno salteados en mantequilla de epazote, servidos con una emulsión de mayonesa de habanero, epazote frito y polvo de chiles.',
     precio: 150,
     categoria: 'Entradas',
-    imagen: '/platillos/mole.jpg',
+    imagen: './platillos/mole.jpg',
   },
   {
     id: 'pesca-del-dia-en-hoja-santa',
@@ -33,7 +33,7 @@ export const menuData = [
     descripcion: 'Huachinango fresco de las costas de Veracruz, marinado en cítricos y envuelto en hoja santa aromática. Cocido lentamente al carbón y servido con una salsa verde cruda y tortillas de maíz amarillo.',
     precio: 420,
     categoria: 'Platos Fuertes',
-    imagen: '/platillos/mole.jpg',
+    imagen: './platillos/mole.jpg',
   },
   {
     id: 'nube-de-pulque',
@@ -42,6 +42,6 @@ export const menuData = [
     descripcion: 'Un postre etéreo que captura la esencia del maguey. Mousse ligera de pulque curado con guayaba, servida sobre un bizcocho de pinole y coronada con miel de agave y flores comestibles.',
     precio: 160,
     categoria: 'Postres',
-    imagen: '/platillos/mole.jpg',
+    imagen: './platillos/mole.jpg',
   },
 ];

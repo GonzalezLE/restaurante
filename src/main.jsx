@@ -27,7 +27,7 @@ const router = createBrowserRouter([
   },
 ], {
   // 👇 AÑADE ESTA OPCIÓN CON EL MISMO NOMBRE DE TU REPO 👇
-  basename: "/restaurante-final/", // 🔴 ¡DEBE COINCIDIR CON EL `base` DE VITE.CONFIG.JS!
+  basename: "/restaurante/", // 🔴 ¡DEBE COINCIDIR CON EL `base` DE VITE.CONFIG.JS!
 });
 
 
