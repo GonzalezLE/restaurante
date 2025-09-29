@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Restaurante Maíz</title>
+    <script type="text/javascript">
+      // Guarda la ruta actual y la redirige a index.html como un parámetro
+      var path = window.location.pathname;
+      var repoName = '/restaurante/'; // 🔴 ASEGÚRATE QUE ESTE SEA EL NOMBRE DE TU REPO
+      
+      if (path.startsWith(repoName)) {
+        var newPath = path.substring(repoName.length);
+        window.sessionStorage.redirect = newPath;
+      }
+
+      // Redirige a la raíz del proyecto
+      window.location.replace(repoName);
+    </script>
+    </head>
+  <body>
+    </body>
+</html>
