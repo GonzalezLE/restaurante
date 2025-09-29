@@ -1,4 +1,6 @@
 import platillo from './../assets/platillo.jpg';
+import { Link } from 'react-router-dom';
+
 
 function FeaturedDishes() {
   return (
@@ -80,9 +82,9 @@ function FeaturedDishes() {
           </div>
         </div>
         <div className="text-center mt-12">
-            <a href="#menu" className="bg-elote text-comal font-bold py-3 px-8 rounded-full hover:bg-comal hover:text-masa transition-all duration-300 transform hover:scale-105">
-                Ver el Menú Completo
-            </a>
+          <Link  to="/menu"  className="bg-elote text-comal font-bold py-3 px-8 rounded-full hover:bg-comal hover:text-masa transition-all duration-300 transform hover:scale-105">
+            Ver el Menú Completo
+          </Link>
         </div>
       </div>
     </section>

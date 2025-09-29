@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import milpa from './../assets/milpa.jpg'
 
 
@@ -19,9 +20,9 @@ function Hero() {
           Descubre la cocina de nuestro chef, un homenaje a la tierra y a las raíces de la gastronomía tradicional mexicana.
         </p>
         <div className="mt-10">
-          <a href="#menu" className="bg-elote text-comal font-bold text-lg py-3 px-8 rounded-full hover:bg-masa hover:text-comal transition-all duration-300 transform hover:scale-105">
-            Ver el Menú
-          </a>
+          <Link  to="/menu" className="bg-elote text-comal font-bold text-lg py-3 px-8 rounded-full hover:bg-masa hover:text-comal transition-all duration-300 transform hover:scale-105" >          
+            Ver el Menú          
+          </Link>
         </div>
       </div>
     </section>

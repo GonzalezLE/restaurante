@@ -19,7 +19,7 @@ function ReservationsPage() {
     e.preventDefault();
     const telefonoRestaurante = '5212221234567'; // 🔴 RECUERDA CAMBIAR ESTE NÚMERO
     const { nombre, personas, fecha, hora } = formData;
-    const mensaje = `¡Hola! 👋 Me gustaría hacer una reservación:
+    const mensaje = `¡Hola! Me gustaría hacer una reservación:
 *Nombre:* ${nombre}
 *Número de personas:* ${personas}
 *Fecha:* ${fecha}
