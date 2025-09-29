@@ -23,7 +23,7 @@ function DishDetailPage() {
         {/* Imagen Principal */}
         <div className="mt-12 mb-12 max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl">
                     <img 
-            src={platillo.imagen} 
+            src={'.'+platillo.imagen} 
             alt={platillo.nombre}
             className="w-full h-auto"
           />
@@ -40,9 +40,9 @@ function DishDetailPage() {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <p className="text-comal/70">Precio</p>
             <p className="font-serif font-bold text-4xl text-maiz-azul mt-1">${platillo.precio} MXN</p>
-            <a href="#reservar" className="block w-full mt-4 bg-elote text-comal font-bold py-2 px-4 rounded-full hover:bg-comal hover:text-masa transition-all duration-300">
+            <Link to="/reservar" className="block w-full mt-4 bg-elote text-comal font-bold py-2 px-4 rounded-full hover:bg-comal hover:text-masa transition-all duration-300" >
               Reservar Mesa
-            </a>
+            </Link>
           </div>
         </div>
         
