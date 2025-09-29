@@ -12,6 +12,16 @@
   <link rel="icon" type="image/svg+xml" href="/restaurante/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>restaurant</title>
+  <script type="text/javascript">
+    // Lee la ruta guardada por 404.html y la reescribe
+    (function () {
+      var redirect = window.sessionStorage.redirect;
+      delete window.sessionStorage.redirect;
+      if (redirect && redirect !== window.location.pathname) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
   <script type="module" crossorigin src="/restaurante/assets/index-B2kxuxgK.js"></script>
   <link rel="stylesheet" crossorigin href="/restaurante/assets/index-eQOPL4Um.css">
 </head>
